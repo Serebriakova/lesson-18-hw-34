@@ -1,0 +1,90 @@
+.get-in-touch {
+  padding-top: 105px;
+  padding-bottom: 105px;
+
+  .col-md-8 {
+    position: relative;
+    padding-bottom: 105px;
+
+    textarea {
+      height: 248px;
+    }
+  }
+
+  .decor-line {
+    &::after {
+      content: "";
+      position: absolute;
+      width: 132px;
+      height: 3px;
+      background-color: rgb(255, 45, 45);
+      bottom: 100px;
+      left: 0;
+    }
+  }
+
+  .h2 {
+    font-size: 38px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+
+  p {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.75;
+  }
+
+  .form-control {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.102);
+    padding: 30px 45px;
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-top: 0;
+
+    &::placeholder {
+      font-size: 11px;
+      color: rgba(0, 0, 0, 0.502);
+    }
+  }
+
+  .btn {
+    border-radius: 5px;
+    background-color: rgb(255, 59, 59);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+
+  .col-md-4 {
+    position: relative;
+  }
+  .contact-info {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    background-color: black;
+    padding: 140px 50px 140px 75px;
+
+    .h6 {
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.8);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.892;
+    }
+
+    p {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.75;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 110px;
+
+  .nav {
+    background-color: #313030;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-link {
+    padding-top: 45px;
+    padding-bottom: 35px;
+    padding-right: 25px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .active {
+    background-color: rgb(255, 63, 64);
+  }
+}

@@ -1,0 +1,66 @@
+.services {
+  padding-top: 115px;
+  padding-bottom: 110px;
+  position: relative;
+
+  &::after {
+    content: "";
+    background-color: rgb(236, 236, 236);
+    width: 1250px;
+    height: 2px;
+    position: absolute;
+    bottom: 45px;
+    left: 27%;
+  }
+  .h2 {
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.31;
+    text-align: left;
+    margin: 0;
+  }
+
+  p {
+    margin-top: 50px;
+    margin-bottom: 55px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    line-height: 1.75;
+    text-align: left;
+  }
+
+  .btn {
+    font-size: 12.78px;
+    color: rgb(255, 45, 45);
+    font-weight: bold;
+    background-color: #ffffff;
+    text-align: left;
+    border-width: 2px;
+    border-color: rgb(255, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 60px;
+  }
+
+  img {
+    width: 40px;
+    height: 33px;
+  }
+  .card {
+    border: none;
+  }
+  .card-body {
+    padding: 30px 0 0 0;
+
+    p {
+      margin-top: 25px;
+    }
+  }
+  .card-title {
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.702);
+    text-align: left;
+  }
+}

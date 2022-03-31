@@ -1,0 +1,61 @@
+.banner {
+  background-color: rgb(246, 242, 242);
+  padding-bottom: 120px;
+  width: 100%;
+
+  .h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.75;
+    text-align: left;
+  }
+
+  .btn {
+    padding: 10px 60px;
+
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.878;
+    text-align: left;
+    border-radius: 5px;
+    background-color: rgb(255, 45, 45);
+  }
+
+  .video-frame {
+    background-color: $banner-primary-color;
+    position: relative;
+    box-shadow: 0px 14px 73px 0px rgba(0, 0, 0, 0.29);
+    margin-right: 0;
+    margin-left: 50px;
+  }
+
+  .play-button {
+    background-color: $banner-primary-color;
+    height: 70px;
+    width: 70px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .ratio {
+    width: 551px;
+    height: 360px;
+  }
+}
